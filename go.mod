@@ -1,3 +1,1 @@
-module github.com/rakyll/statik
-
-go 1.12
+module github.com/JakobGreen/statik
