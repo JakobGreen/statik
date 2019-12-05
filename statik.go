@@ -219,7 +219,7 @@ func init() {
 	data := "`)
 	FprintZipData(&qb, buffer.Bytes())
 	fmt.Fprintf(&qb, `"
-	fs.RegisterWithName("%s", data)
+	fs.RegisterWithNamespace("%s", data)
 }
 `, assetNamespace)
 
